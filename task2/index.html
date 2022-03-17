@@ -59,13 +59,16 @@
         
 
 
-        /* div.text{
-            display:unset;
+        div.text{
+            visibility: hidden;
+        }
+        .img:hover{
+            opacity: 50%;
         }
 
-        div.img:hover + .text {
-            display: block;
-        } */
+        .img:hover>.text{
+            visibility: visible;
+        } 
         
         
         /* img{
